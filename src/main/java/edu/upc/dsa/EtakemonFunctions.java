@@ -16,6 +16,7 @@ public class EtakemonFunctions implements EetacInterface {
 
     public  EtakemonFunctions(){
         listUser = new HashMap<>();
+        //CREO UN USUARIO ESTATICO PARA PROBAR ERRORES DE DUPLICACION Y DEMAS
         User  newUser= new User();
         newUser.setName("Espatula");
         newUser.setPassword("Khan");
